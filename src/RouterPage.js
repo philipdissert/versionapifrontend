@@ -10,12 +10,9 @@ export default function RouterPage() {
     return (<>
         <Router>
                 <Switch>
-                    <div style={{ height: height, backgroundColor: '#DCE0D9'}}>
+                    <div style={{height: height}} className="backgroundColor specialFont">
                         <Container style={{
                             textAlign: 'center', 
-                            fontWeight : 'bold',
-                            fontFamily: 'sans-serif',
-                            color: '#5C0029',
                         }} fluid>
                                 <Route exact path="/">
                                     <Startpage height={height}/>
